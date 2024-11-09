@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="Generic.Extent_Report_Manager"></listener>
+		
+	</listeners>
+	
+  <test thread-count="1" name="Test1">
+    <classes>
+      
+          
+      <class name="Test_Script.Login"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="Test2">
+    <classes>
+      
+      <class name="Test_Script.UploadFile"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="Test3">
+    <classes>
+        
+      <class name="Test_Script.Show_Hide_Dimensions"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="Test4">
+    <classes>
+      
+      
+      <class name="Test_Script.Machining_Chart_IDs"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="Test5">
+    <classes>
+         
+      <class name="Test_Script.Projections_1st_3rd"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="Test6">
+    <classes>
+      
+      
+      <class name="Test_Script.Download"/>     
+   
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
